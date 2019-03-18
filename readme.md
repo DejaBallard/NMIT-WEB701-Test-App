@@ -1,3 +1,6 @@
+<h1>Deja Ballard's Laravel Test App</h1>
+<p align="center">Follows Lynda <a href=https://www.lynda.com/Laravel-tutorials/Welcome/604257/648628-4.html?autoplay=true>Laravel 5</p>
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
