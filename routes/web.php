@@ -12,5 +12,24 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+        $data = [];
+    $data['ver'] ='0.1';
+    return view('welcome',$data);
+});
+
+Route::get('/about', function () {
+    $response_arr = [];
+    $response_arr['author'] = 'BP';
+    $response_arr['version'] = '0.1';
+    return $response_arr;
+});
+
+Route::get('/di', 'ClientController@di');
+
+Route::get('/facades/db', function () {
+    return DB::select('SELECT * FROM table');
+});
+
+Route::get('/facades/encrypt', function () {
+    return Crypt::encrypt('123456789');
 });

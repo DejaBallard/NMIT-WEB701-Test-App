@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Deja App v. {{$ver}}
                 </div>
 
                 <div class="links">
